@@ -18,7 +18,7 @@ public class UserController {
     public UserController(UserService userService) {
         this.userService = userService;
     }
-    
+
     @RequestMapping("/users")
     public String getUsers(ModelMap model) {
 
